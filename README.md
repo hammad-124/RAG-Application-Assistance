@@ -60,7 +60,7 @@ backend/
 3. **Environment Setup**
    Create a `.env` file in the backend directory:
    ```env
-   MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/RAG
+   MONGO_URI=your_mongodb_atlas_connection_string
    OPENAI_API_KEY=your_openai_api_key_here
    PORT=3000
    NODE_ENV=development
